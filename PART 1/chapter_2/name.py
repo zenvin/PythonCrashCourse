@@ -35,4 +35,14 @@ print("Languages:n\nPython\nC\nJavaScript")
 print("Languages:\n\tPython\n\tC\n\tJavaScript")
 
 
-#END ON PAGE 22 
+#Page 23 Strpipping Whitespace
+favorite_language = 'python '
+favorite_language.rstrip()
+
+# r.strip() will only remove it temporarily. 
+# to remove the whitespace permanently, you would need to associate the stripped value to a variable:
+favorite_language = favorite_language.rstrip()
+
+# r.strip() strips from the right l.strip() strips from the left.
+# stripping is normally used for cleaning up user input. 
+
