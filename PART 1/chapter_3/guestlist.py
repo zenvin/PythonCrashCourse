@@ -28,6 +28,7 @@ print(guests)
 guests.insert(-1, "see")
 print(guests)
 
+print(f"\nThe list of guests is now {len(guests)} people.")
 print(f"\n{guests[0].title()}, please join me for dinner tonight under the stars.")
 print(f"\n{guests[1].title()}, please join me for dinner tonight under the stars.")
 print(f"\n{guests[2].title()}, please join me for dinner tonight under the stars.")
@@ -50,3 +51,4 @@ print(guests)
 del guests[0]
 del guests[0]
 print(guests)
+
