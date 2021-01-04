@@ -1,0 +1,5 @@
+In Python you can print messages.
+In Python you store variables.
+In Python you can make programs.
+In Python you can read text files.
+In Python you can do many things.
